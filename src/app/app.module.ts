@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { LayoutComponent } from './layout/layout.component';
-import { AdminPageComponent } from './admin/pages/admin-page/admin-page.component';
-import { AdminpageComponent } from './admin/pages/adminpage/adminpage.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +14,11 @@ import { AdminpageComponent } from './admin/pages/adminpage/adminpage.component'
     FooterComponent,
     HeaderComponent,
     LayoutComponent,
-    AdminPageComponent,
-    AdminpageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
