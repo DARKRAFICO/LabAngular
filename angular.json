@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "LabVCAngular"
+    }
+  },
+  "defaultProject": "LabVCAngular",
+  "cli": {
+    "analytics": "e4d8f896-f781-4977-916a-a3313fbe12b2"
+  }
 }
