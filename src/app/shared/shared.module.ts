@@ -8,6 +8,6 @@ import { FcourseComponent } from './components/fcourse/fcourse.component';
   imports: [
     CommonModule
   ],
-  exports:[FcourseComponent]
+  exports: [FcourseComponent]
 })
 export class SharedModule { }
