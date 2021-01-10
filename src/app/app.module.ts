@@ -7,7 +7,6 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { LayoutComponent } from './layout/layout.component';
 import { FormsModule } from '@angular/forms';
-import { CatcursocontainerComponent } from './course/components/catcursocontainer/catcursocontainer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,6 @@ import { CatcursocontainerComponent } from './course/components/catcursocontaine
     FooterComponent,
     HeaderComponent,
     LayoutComponent,
-    CatcursocontainerComponent,
   ],
   imports: [
     BrowserModule,

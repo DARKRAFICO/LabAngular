@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-fcourse',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fcourse.component.css']
 })
 export class FcourseComponent implements OnInit {
+
+@Input() curso: any[];
+@Input() coverWitdh: number;
 
   constructor() { }
 

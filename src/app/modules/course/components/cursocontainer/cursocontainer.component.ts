@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursocontainerComponent implements OnInit {
 
+  listcurso: any[] = [];
+
   constructor() { }
 
   ngOnInit(): void {
