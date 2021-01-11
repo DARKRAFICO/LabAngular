@@ -7,10 +7,12 @@ import { CatcursocontainerComponent } from './components/catcursocontainer/catcu
 import { CursocontainerComponent } from './components/cursocontainer/cursocontainer.component';
 import { DetcoursepageComponent } from './pages/detcoursepage/detcoursepage.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { CursoComponent } from './components/curso/curso.component';
+
 
 
 @NgModule({
-  declarations: [CoursepageComponent, CatcursocontainerComponent, CursocontainerComponent, DetcoursepageComponent],
+  declarations: [CoursepageComponent, CatcursocontainerComponent, CursocontainerComponent, DetcoursepageComponent, CursoComponent],
   imports: [
     CommonModule,
     CourseRoutingModule,

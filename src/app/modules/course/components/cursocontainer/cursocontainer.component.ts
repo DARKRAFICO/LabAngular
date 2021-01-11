@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cursocontainer',
@@ -9,9 +9,14 @@ export class CursocontainerComponent implements OnInit {
 
   listcourse: any[] = [];
 
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
+
+
+

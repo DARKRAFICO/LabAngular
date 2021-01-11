@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { IInstructor } from '../../interface/iinstructor';
 
 @Component({
   selector: 'app-instructor',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./instructor.component.css']
 })
 export class InstructorComponent implements OnInit {
+
+  @Input() vinstructor: IInstructor;
 
   constructor() { }
 

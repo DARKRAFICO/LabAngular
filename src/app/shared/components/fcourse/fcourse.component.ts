@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ICursodes } from '../../interface/dcurso';
 
 @Component({
   selector: 'app-fcourse',
@@ -7,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class FcourseComponent implements OnInit {
 
-@Input() curso: any[];
+@Input() vcursodes: ICursodes;
 @Input() coverWitdh: number;
 
   constructor() { }
